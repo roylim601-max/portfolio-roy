@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio | Your Name</title>
-  <!-- Naka-link na dito ang hiwalay na CSS file -->
+  <title>Portfolio | Lim Roy Jr.</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- Header -->
-  <header>
+  <header class="animate-fade">
     <div class="profile-info">
-      <img src="https://via.placeholder.com/48" alt="Your Name" class="profile-img" />
+      <!-- Palitan ang profile.jpg sa mismong image file name mo mamaya -->
+      <img src="profile.jpg" alt="Lim Roy Jr." class="profile-img" onerror="this.src='https://via.placeholder.com/150?text=Roy'" />
       <div>
-        <strong>[Your Name]</strong><br />
-        <span class="date">[Your field / degree, e.g. "B.S. Information Technology, 2026"]</span>
+        <strong>Lim Roy Jr.</strong><br />
+        <span class="date">B.S. Information Technology (BSIT-3C)</span>
       </div>
     </div>
     <nav>
@@ -27,62 +27,64 @@
     </nav>
   </header>
 
-  <div class="last-updated">Last updated [Month Year]</div>
+  <div class="last-updated animate-fade delay-1">Last updated September 2026</div>
 
   <!-- Hero Section (Index 00) -->
-  <section id="hero">
+  <section id="hero" class="animate-fade delay-2">
     <span class="index-label">Index 00</span>
     <h1>Portfolio</h1>
-    <p class="subtitle">[Your Name]. <br />[What you make or study].</p>
+    <p class="subtitle">Lim Roy Jr. <br />Aspiring Web Developer & IT Student.</p>
     <p class="bio">
-      [One or two sentences that tell a stranger what you're studying, what you're good at, and what kind of work you want next - internship, freelance, research, etc.]
+      Third-year Information Technology student at Eastern Samar State University. Focused on learning modern web development, UI/UX design, and building functional software applications. Currently open for academic collaborations, projects, and future internship opportunities.
     </p>
     <div class="links">
       <a href="mailto:your-email@example.com">Email</a>
-      <a href="#">Resume</a>
-      <a href="https://github.com/yourusername">GitHub</a>
-      <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+      <a href="https://github.com/roylim601-max" target="_blank">GitHub</a>
+      <a href="#" target="_blank">LinkedIn</a>
     </div>
   </section>
 
   <!-- About (Index 01) -->
-  <section id="about">
+  <section id="about" class="animate-fade delay-3">
     <span class="index-label">Index 01</span>
     <h2>About</h2>
     <p class="bio">
-      [Two to three sentences: who you are, what you're studying, and what draws you to it. Write like you're introducing yourself to someone at a career fair plain and specific, not a list of adjectives.]
+      I am currently a 3rd-year BSIT student (BSIT-3C) studying at Eastern Samar State University. I have a growing passion for technology and software development, continuously improving my skill set in both front-end and back-end web solutions.
     </p>
     <p class="bio">
-      [Optional second paragraph: a current focus, a class or project that shaped your direction, or what you're looking for next.]
+      As a student developer, I enjoy solving problems through code and exploring modern frameworks and design principles to create clean, responsive websites.
     </p>
   </section>
 
   <!-- Skills (Index 02) -->
-  <section id="skills">
+  <section id="skills" class="animate-fade delay-4">
     <span class="index-label">Index 02</span>
     <h2>Skills</h2>
     <div class="grid-3">
       <div class="skills-group">
         <h3>Languages</h3>
         <ul>
-          <li>[Skill]</li>
-          <li>[Skill]</li>
-          <li>[Skill]</li>
+          <li>HTML5 / CSS3</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+          <li>SQL</li>
         </ul>
       </div>
       <div class="skills-group">
-        <h3>Tools</h3>
+        <h3>Tools & Platforms</h3>
         <ul>
-          <li>[Tool]</li>
-          <li>[Tool]</li>
-          <li>[Tool]</li>
+          <li>Git & GitHub</li>
+          <li>Visual Studio Code</li>
+          <li>MySQL / phpMyAdmin</li>
+          <li>Figma (Basic UI)</li>
         </ul>
       </div>
       <div class="skills-group">
-        <h3>Other</h3>
+        <h3>Core Competencies</h3>
         <ul>
-          <li>[Skill]</li>
-          <li>[Skill]</li>
+          <li>Responsive Web Design</li>
+          <li>Database Management</li>
+          <li>Troubleshooting</li>
         </ul>
       </div>
     </div>
@@ -94,26 +96,16 @@
     <h2>Projects</h2>
     
     <div class="project-card">
-      <h3>[Project name]</h3>
-      <p>[One or two sentences: what the project is, the problem it solves, and your role in it.]</p>
+      <!-- Palitan ang project1.jpg sa mismong screenshot/picture ng project mo mamaya -->
+      <img src="project1.jpg" alt="Personal Portfolio Website" class="project-img" onerror="this.style.display='none'" />
+      <h3>Personal Developer Portfolio</h3>
+      <p>A minimalist, clean, and modern responsive developer portfolio built to showcase my academic projects, skills, and background as an IT student.</p>
       <div class="tech-tags">
-        <span>[Tech]</span> • <span>[Tech]</span> • <span>[Tech]</span>
+        <span>HTML5</span> • <span>CSS3</span> • <span>Git / GitHub Pages</span>
       </div>
       <div class="project-links">
-        <a href="#">Live demo</a>
-        <a href="#">Source</a>
-      </div>
-    </div>
-
-    <div class="project-card">
-      <h3>[Project name]</h3>
-      <p>[One or two sentences: what the project is, the problem it solves, and your role in it.]</p>
-      <div class="tech-tags">
-        <span>[Tech]</span> • <span>[Tech]</span>
-      </div>
-      <div class="project-links">
-        <a href="#">Live demo</a>
-        <a href="#">Source</a>
+        <a href="https://roylim601-max.github.io/portfolio-roy/" target="_blank">Live Demo</a>
+        <a href="https://github.com/roylim601-max/portfolio-roy" target="_blank">Source Code</a>
       </div>
     </div>
   </section>
@@ -123,34 +115,20 @@
     <span class="index-label">Index 04</span>
     <h2>Experience & Education</h2>
     
-    <h3 style="margin-bottom: 1rem;">Experience</h3>
+    <h3 class="sub-heading">Education</h3>
     <div class="exp-item">
-      <div class="date">[Month Year] - [Month Year / Present]</div>
-      <h3>[Role title]</h3>
-      <div class="org">[Company or organization name]</div>
-      <p>[One or two sentences on what you did and what came out of it.]</p>
+      <div class="date">2022 - Present</div>
+      <h3>Bachelor of Science in Information Technology (BSIT-3C)</h3>
+      <div class="org">Eastern Samar State University</div>
+      <p>Focused on Web Development, Systems Analysis, Database Management Systems, and Software Engineering principles.</p>
     </div>
 
+    <h3 class="sub-heading" style="margin-top: 2rem;">Projects & Experience</h3>
     <div class="exp-item">
-      <div class="date">[Month Year] - [Month Year]</div>
-      <h3>[Role title]</h3>
-      <div class="org">[Company or organization name]</div>
-      <p>[One or two sentences on what you did and what came out of it.]</p>
-    </div>
-
-    <h3 style="margin-top: 2rem; margin-bottom: 1rem;">Education</h3>
-    <div class="exp-item">
-      <div class="date">[Month Year] - [Month Year / Present]</div>
-      <h3>[Degree title]</h3>
-      <div class="org">[School name]</div>
-      <p>[Relevant coursework, honors, or focus area.]</p>
-    </div>
-
-    <div class="exp-item">
-      <div class="date">[Month Year] - [Month Year]</div>
-      <h3>[Degree or certificate title]</h3>
-      <div class="org">[School name]</div>
-      <p>[Relevant coursework, honors, or focus area.]</p>
+      <div class="date">2025 - Present</div>
+      <h3>Academic & Student Web Projects</h3>
+      <div class="org">Eastern Samar State University</div>
+      <p>Developed class project applications, designed web interfaces, and learned source code version control using Git and GitHub.</p>
     </div>
   </section>
 
@@ -159,17 +137,16 @@
     <span class="index-label">Index 05</span>
     <h2>Get in touch</h2>
     <p class="bio">
-      [A closing line inviting the right kind of contact e.g. "Open to summer 2027 internships in front-end development. Reach out any time."]
+      Open for academic collaborations, web development learning, and future IT internship opportunities. Feel free to reach out anytime!
     </p>
     <div class="links">
-      <a href="mailto:your-email@example.com">[your-email@example.com]</a>
-      <a href="https://github.com/username">github.com/[username]</a>
-      <a href="https://linkedin.com/in/username">linkedin.com/in/[username]</a>
+      <a href="mailto:your-email@example.com">Email Me</a>
+      <a href="https://github.com/roylim601-max" target="_blank">github.com/roylim601-max</a>
     </div>
   </section>
 
   <footer>
-    <p>[Year] [Your Name]. All rights reserved.</p>
+    <p>&copy; 2026 Lim Roy Jr. All rights reserved.</p>
   </footer>
 
 </body>
