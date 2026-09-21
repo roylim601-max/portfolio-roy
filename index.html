@@ -11,11 +11,10 @@
   <!-- Header -->
   <header class="animate-fade">
     <div class="profile-info">
-      <!-- Palitan ang profile.jpg sa mismong image file name mo mamaya -->
       <img src="profile.jpg" alt="Lim Roy Jr." class="profile-img" onerror="this.src='https://via.placeholder.com/150?text=Roy'" />
       <div>
-        <strong>Lim Roy Jr.</strong><br />
-        <span class="date">B.S. Information Technology (BSIT-3C)</span>
+        <strong style="color: var(--heading);">Lim Roy Jr.</strong><br />
+        <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text);">BSIT-3C</span>
       </div>
     </div>
     <nav>
@@ -27,125 +26,133 @@
     </nav>
   </header>
 
-  <div class="last-updated animate-fade delay-1">Last updated September 2026</div>
+  <div style="font-family: var(--font-mono); font-size: 0.8rem; margin-bottom: 2rem;" class="animate-fade delay-1">
+    Last updated September 2026
+  </div>
 
   <!-- Hero Section (Index 00) -->
   <section id="hero" class="animate-fade delay-2">
-    <span class="index-label">Index 00</span>
-    <h1>Portfolio</h1>
-    <p class="subtitle">Lim Roy Jr. <br />Aspiring Web Developer & IT Student.</p>
-    <p class="bio">
+    <span class="index-label">INDEX 00</span>
+    <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">Portfolio</h1>
+    <p style="font-size: 1.2rem; color: var(--text); margin-bottom: 1rem;">
+      <strong style="color: var(--heading);">Lim Roy Jr.</strong><br />
+      Aspiring Web Developer & IT Student.
+    </p>
+    <p style="margin-bottom: 1.5rem;">
       Third-year Information Technology student at Eastern Samar State University. Focused on learning modern web development, UI/UX design, and building functional software applications. Currently open for academic collaborations, projects, and future internship opportunities.
     </p>
-    <div class="links">
-      <a href="mailto:your-email@example.com">Email</a>
-      <a href="https://github.com/roylim601-max" target="_blank">GitHub</a>
-      <a href="#" target="_blank">LinkedIn</a>
+    <div class="btn-group">
+      <a href="mailto:your-email@example.com" class="btn">Email Me</a>
+      <a href="https://github.com/roylim601-max" target="_blank" class="btn btn-outline">GitHub</a>
+      <a href="https://www.linkedin.com/in/roy-lim-jr-350210439" target="_blank" class="btn btn-outline">LinkedIn</a>
     </div>
   </section>
 
   <!-- About (Index 01) -->
-  <section id="about" class="animate-fade delay-3">
-    <span class="index-label">Index 01</span>
+  <section id="about" class="animate-fade delay-3" style="margin-top: 3.5rem;">
+    <span class="index-label">INDEX 01</span>
     <h2>About</h2>
-    <p class="bio">
+    <p style="margin-top: 1rem; margin-bottom: 1rem;">
       I am currently a 3rd-year BSIT student (BSIT-3C) studying at Eastern Samar State University. I have a growing passion for technology and software development, continuously improving my skill set in both front-end and back-end web solutions.
     </p>
-    <p class="bio">
+    <p>
       As a student developer, I enjoy solving problems through code and exploring modern frameworks and design principles to create clean, responsive websites.
     </p>
   </section>
 
   <!-- Skills (Index 02) -->
-  <section id="skills" class="animate-fade delay-4">
-    <span class="index-label">Index 02</span>
+  <section id="skills" style="margin-top: 3.5rem;">
+    <span class="index-label">INDEX 02</span>
     <h2>Skills</h2>
-    <div class="grid-3">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
       <div class="skills-group">
-        <h3>Languages</h3>
-        <ul>
-          <li>HTML5 / CSS3</li>
-          <li>JavaScript</li>
-          <li>PHP</li>
+        <h3 style="color: var(--heading); font-size: 1rem; margin-bottom: 0.8rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem;">Languages</h3>
+        <ul style="list-style: none; font-family: var(--font-mono); font-size: 0.85rem;">
+          <li style="margin-bottom: 0.4rem;">HTML5 / CSS3</li>
+          <li style="margin-bottom: 0.4rem;">JavaScript</li>
+          <li style="margin-bottom: 0.4rem;">PHP</li>
           <li>SQL</li>
         </ul>
       </div>
       <div class="skills-group">
-        <h3>Tools & Platforms</h3>
-        <ul>
-          <li>Git & GitHub</li>
-          <li>Visual Studio Code</li>
-          <li>MySQL / phpMyAdmin</li>
+        <h3 style="color: var(--heading); font-size: 1rem; margin-bottom: 0.8rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem;">Tools & Platforms</h3>
+        <ul style="list-style: none; font-family: var(--font-mono); font-size: 0.85rem;">
+          <li style="margin-bottom: 0.4rem;">Git & GitHub</li>
+          <li style="margin-bottom: 0.4rem;">Visual Studio Code</li>
+          <li style="margin-bottom: 0.4rem;">MySQL / phpMyAdmin</li>
           <li>Figma (Basic UI)</li>
         </ul>
       </div>
       <div class="skills-group">
-        <h3>Core Competencies</h3>
-        <ul>
-          <li>Responsive Web Design</li>
-          <li>Database Management</li>
-          <li>Troubleshooting</li>
+        <h3 style="color: var(--heading); font-size: 1rem; margin-bottom: 0.8rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem;">Core Skills</h3>
+        <ul style="list-style: none; font-family: var(--font-mono); font-size: 0.85rem;">
+          <li style="margin-bottom: 0.4rem;">Responsive Web Design</li>
+          <li style="margin-bottom: 0.4rem;">Database Management</li>
+          <li>System Troubleshooting</li>
         </ul>
       </div>
     </div>
   </section>
 
   <!-- Projects (Index 03) -->
-  <section id="projects">
-    <span class="index-label">Index 03</span>
+  <section id="projects" style="margin-top: 3.5rem;">
+    <span class="index-label">INDEX 03</span>
     <h2>Projects</h2>
     
     <div class="project-card">
-      <!-- Palitan ang project1.jpg sa mismong screenshot/picture ng project mo mamaya -->
       <img src="project1.jpg" alt="Personal Portfolio Website" class="project-img" onerror="this.style.display='none'" />
       <h3>Personal Developer Portfolio</h3>
-      <p>A minimalist, clean, and modern responsive developer portfolio built to showcase my academic projects, skills, and background as an IT student.</p>
-      <div class="tech-tags">
-        <span>HTML5</span> • <span>CSS3</span> • <span>Git / GitHub Pages</span>
+      <p style="margin-top: 0.5rem;">A minimalist, clean, and modern responsive developer portfolio built to showcase my academic projects, skills, and background as an IT student.</p>
+      
+      <div class="tech-tags" style="margin: 1rem 0;">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>GitHub Pages</span>
       </div>
-      <div class="project-links">
-        <a href="https://roylim601-max.github.io/portfolio-roy/" target="_blank">Live Demo</a>
-        <a href="https://github.com/roylim601-max/portfolio-roy" target="_blank">Source Code</a>
+      
+      <div class="btn-group">
+        <a href="https://roylim601-max.github.io/portfolio-roy/" target="_blank" class="btn">Live Demo</a>
+        <a href="https://github.com/roylim601-max/portfolio-roy" target="_blank" class="btn btn-outline">Source Code</a>
       </div>
     </div>
   </section>
 
   <!-- Experience & Education (Index 04) -->
-  <section id="experience">
-    <span class="index-label">Index 04</span>
+  <section id="experience" style="margin-top: 3.5rem;">
+    <span class="index-label">INDEX 04</span>
     <h2>Experience & Education</h2>
     
-    <h3 class="sub-heading">Education</h3>
     <div class="exp-item">
-      <div class="date">2022 - Present</div>
+      <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent);">2022 - Present</span>
       <h3>Bachelor of Science in Information Technology (BSIT-3C)</h3>
-      <div class="org">Eastern Samar State University</div>
-      <p>Focused on Web Development, Systems Analysis, Database Management Systems, and Software Engineering principles.</p>
+      <p style="color: var(--heading); font-weight: 500;">Eastern Samar State University</p>
+      <p style="margin-top: 0.5rem;">Focused on Web Development, Systems Analysis, Database Management Systems, and Software Engineering principles.</p>
     </div>
 
-    <h3 class="sub-heading" style="margin-top: 2rem;">Projects & Experience</h3>
     <div class="exp-item">
-      <div class="date">2025 - Present</div>
+      <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent);">2025 - Present</span>
       <h3>Academic & Student Web Projects</h3>
-      <div class="org">Eastern Samar State University</div>
-      <p>Developed class project applications, designed web interfaces, and learned source code version control using Git and GitHub.</p>
+      <p style="color: var(--heading); font-weight: 500;">Eastern Samar State University</p>
+      <p style="margin-top: 0.5rem;">Developed class project applications, designed web interfaces, and learned source code version control using Git and GitHub.</p>
     </div>
   </section>
 
   <!-- Contact (Index 05) -->
-  <section id="contact">
-    <span class="index-label">Index 05</span>
+  <section id="contact" style="margin-top: 3.5rem;">
+    <span class="index-label">INDEX 05</span>
     <h2>Get in touch</h2>
-    <p class="bio">
+    <p style="margin-top: 0.5rem; margin-bottom: 1.5rem;">
       Open for academic collaborations, web development learning, and future IT internship opportunities. Feel free to reach out anytime!
     </p>
-    <div class="links">
-      <a href="mailto:your-email@example.com">Email Me</a>
-      <a href="https://github.com/roylim601-max" target="_blank">github.com/roylim601-max</a>
+    
+    <div class="btn-group">
+      <a href="mailto:your-email@example.com" class="btn">Email Me</a>
+      <a href="https://github.com/roylim601-max" target="_blank" class="btn btn-outline">GitHub</a>
+      <a href="https://www.linkedin.com/in/roy-lim-jr-350210439" target="_blank" class="btn btn-outline">LinkedIn Profile</a>
     </div>
   </section>
 
-  <footer>
+  <footer style="margin-top: 5rem; border-top: 1px solid var(--border); padding-top: 2rem; font-family: var(--font-mono); font-size: 0.8rem; text-align: center;">
     <p>&copy; 2026 Lim Roy Jr. All rights reserved.</p>
   </footer>
 
